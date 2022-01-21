@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+}
+#Login{
+    background-color: aqua;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 20px;
+    border: black 2px solid;
+}
+#Login > input{
+    border: none;
+    border-bottom: black solid 2px;
+    border-left: black solid 2px;
+    height: 30px;
+    width: 400px;
+    color:gray;
+    background-color: aqua;
+}
+#Login > p {
+    text-align: left;
+    font-family:monospace;
+    font-size: 18px;
+    color: whitesmoke;
+}
+#Login > h1{
+    color: White;
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.274);
+}
+#login{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.171);
+    width: 90%;
+    margin: 10px;
+    border: black 1px solid;
+    height: 30px;
+}
+#login:hover{
+    border: gray 1px solid;
+    background-color: white;
+    transition: 1s;
+}
