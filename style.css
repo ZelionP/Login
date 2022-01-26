@@ -38,6 +38,15 @@ body{
     color: White;
     text-align: left;
     background-color: rgba(128, 128, 128, 0.274);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Login > h1:hover{
+    transition: 1s ease-in;
+    background-color: rgba(255, 160, 122, 0.493);
+    color: red;
+}
+#Login>h1::first-letter{
+    color: red;
 }
 #login{
     display: block;
