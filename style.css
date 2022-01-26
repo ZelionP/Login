@@ -4,6 +4,12 @@ body{
     align-items: center;
     position: relative;
     top: 250px;
+    background-color: aquamarine;
+    border: 5px solid black;
+    padding: 100px;
+    font: caption;
+    box-shadow: wheat 4px 7px;
+    
 }
 #Login{
     background-color: aqua;
@@ -11,6 +17,7 @@ body{
     padding: 20px 50px;
     border-radius: 20px;
     border: black 2px solid;
+    box-shadow:rgb(255, 152, 152) 2px 2px;
 }
 #Login > input{
     border: none;
