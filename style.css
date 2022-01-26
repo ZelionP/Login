@@ -50,5 +50,5 @@ body{
 #login:hover{
     border: gray 1px solid;
     background-color: white;
-    transition: 1s;
+    transition: 0.3s ease-in;
 }
